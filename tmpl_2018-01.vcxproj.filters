@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp" />
+    <ClCompile Include="ray.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="triangleMesh.cpp" />
+    <ClCompile Include="floor.cpp" />
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="BVH.cpp" />
+    <ClCompile Include="BVHNode.cpp" />
+    <ClCompile Include="pathTracer.cpp" />
+    <ClCompile Include="wall.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="plane.h" />
+    <ClInclude Include="ray.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="triangleMesh.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
+    <ClInclude Include="ctpl_stl.h" />
+    <ClInclude Include="floor.h" />
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="BVH.h" />
+    <ClInclude Include="BVHNode.h" />
+    <ClInclude Include="pathTracer.h" />
+    <ClInclude Include="wall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
