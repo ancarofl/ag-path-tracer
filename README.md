@@ -1,6 +1,6 @@
 # ag-path-tracer
 
-CPU Path Tracer developed in January 2019 as the final assignment of the Advanced Graphics 2018-2019 course at UU. The PT was built on top of a ray tracing framework using a BVH as an acceleration structure, previously developed for the same course.
+CPU Path Tracer developed between December 2018 and January 2019 as the final assignment of the Advanced Graphics (INFOMAGR) 2018-2019 course at UU. The PT was built on top of a ray tracing framework using a BVH as an acceleration structure, previously developed for the same course.
 
 <b> Currently supported features: </b><br />
 -Primitves: plane, sphere, triangle, triangle mesh <br />
